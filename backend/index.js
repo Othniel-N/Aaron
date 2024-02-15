@@ -7,7 +7,7 @@ app.use(cors()); // Enable CORS for all routes
 app.use(express.json()); // Add this line for JSON body parsing
 
 // Your existing routes
-app.get('/api/user', (req, res) => {
+app.get('/api/aaron', (req, res) => {
   const result = {
     users: 50
   };
